@@ -36,7 +36,7 @@
             </ul>
 
             <p class="mt-6 markup-body-xl">
-                Learn how write quality tests in <span><span class="absolute top-1 left-0 w-full h-4 bg-red-500/20"></span>Pest</span>
+                Learn how to write quality tests in <span><span class="absolute top-1 left-0 w-full h-4 bg-red-500/20"></span>Pest</span>
                 and <span><span class="absolute top-1 left-0 w-full h-4 bg-red-500/20"></span>PHPUnit</span>
             </p>
 
