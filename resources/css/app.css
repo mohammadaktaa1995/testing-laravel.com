@@ -1,0 +1,41 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./utilities/markup.css";
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/JetBrainsMono-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+  font-display: swap;
+  font-weight: 400; 
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/JetBrainsMono-Italic.woff') format('woff'); /* Pretty Modern Browsers */
+  font-display: swap;
+  font-weight: 400; 
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/JetBrainsMono-Medium.woff') format('woff'); /* Pretty Modern Browsers */
+  font-display: swap;
+  font-weight: 600; 
+  font-style: normal;
+}
+
+* {
+  position: relative;
+}
+
+html {
+  /* See https://www.sarasoueidan.com/blog/safari-fluid-typography-bug-fix/ */
+  -webkit-marquee-increment: 1vw;
+  font-size: 18px;
+  font-size: clamp(14px, 1.5vw, 21px);
+}
