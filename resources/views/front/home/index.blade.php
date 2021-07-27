@@ -415,7 +415,7 @@ it('has a scope to retrieve all published blogposts', function() {
 
     <section id="related" class="py-32 bg-red-900">
         <x-layout>
-            <h2 class="mb-12 markup-h2 text-white/90 text-center">More courses <br>from these wizzards</h2>
+            <h2 class="mb-12 markup-h2 text-white/90 text-center">More courses <br>from these wizards</h2>
             {{-- <div class="my-16 text-white flex justify-center">
                 @include('partials.newsletter', ['onDark' => true])
             </div> --}}
